@@ -1,0 +1,26 @@
+<html>
+<div id = "mainD">
+<br><br>
+<H1>Demo Minesweeper</H1>
+<table id=grid>
+</table>
+<br>
+<p id="score"> </p> 
+<p id="cTime"> </p>
+<p id="result"> </p>
+<BUTTON onclick="createGrid(m,n);">Reset</BUTTON>
+<BUTTON onclick="revealMines(n);">Cheat</BUTTON>
+<BUTTON onclick="checkCompletion();">Validate</BUTTON>
+<br>
+No of Mines you want: <input type="number" min="0" name="noMines" id="nMines"><br>
+No of rows or columns you want: <input type="number" min="0" name="nRC" id="nRC"><br>
+<p> You can change the number of mines and number of rows/columns. </p>
+<p> The default values are an 8 by 8 grid and 10 mines. </p>
+<p> Let the number of rows/coulmns be more than 3 and less than 40.</p>
+<br>
+
+</div>
+<br><br>
+<link rel="stylesheet" href="mines.css">
+<script src="mines.js" type="text/javascript"></script>
+
