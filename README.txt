@@ -7,3 +7,4 @@ The following options are there:
 3) Am limiting the number of rows or columns to 40 as anything larger may spill over the screen.
 4) 'validate' button to check status of game
 5) 'cheat' button to show location of mines.
+6) 'customize' button to toggle between showing info for customization and nothing.
