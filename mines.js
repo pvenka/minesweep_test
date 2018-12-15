@@ -12,7 +12,16 @@ function myTimer() {
     document.getElementById("cTime").innerHTML = t;
 
 }
+function customize() {
+    var viewOrNot = document.getElementById("customChange");
+    if (viewOrNot.style.display === "none") {
+      viewOrNot.style.display = "block";
+     }
+     else {
+      viewOrNot.style.display = "none";
+     }
 
+}
 function getMandN() {
    if (document.getElementById("nRC").value) {
   var n = document.getElementById("nRC").value;
